@@ -34,7 +34,7 @@ public class SpeechServicesSampleClient extends Thread {
     /*Main function*/
     public static void main(String[] args) throws NumberFormatException,
 	Exception {
-    	boolean dev = false;
+    	boolean dev = true;
     	String srvAddress;
     	int srvPort;
     	String requester, requesterID, userID, requesterInfo;
@@ -47,8 +47,8 @@ public class SpeechServicesSampleClient extends Thread {
     	if(dev){
     		srvAddress="";
     		srvPort = 0000;
-    		xmlfile ="./b2u4l1p10_7-15-14-53-246.xml";
-    		audfile ="./b2u4l1p10_7-15-14-53-246.flv"; 
+    		xmlfile ="./hedgehog.xml";
+    		audfile ="./hedgehog.wav"; 
     		resultFolder = "./";
     		requester = "";
     		requesterID = "";
